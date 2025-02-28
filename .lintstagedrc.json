@@ -1,3 +1,7 @@
 {
-  "*.{ts,tsx}": ["prettier --write", "eslint --fix", "npm run test"]
+  "*.{ts,tsx}": [
+    "prettier --write",
+    "eslint --fix",
+    "npm run test -- --findRelatedTests"
+  ]
 }

@@ -1,9 +1,5 @@
-export default function Home() {
-  return (
-    <div>
-      <div>oiii</div>
+import { Main } from '@/components/Main'
 
-      <h1>Hello Word</h1>
-    </div>
-  )
+export default function Home() {
+  return <Main />
 }

@@ -6,6 +6,8 @@ describe('<Main />', () => {
     // Renderiza o componente
     render(<Main />)
     // Verifica se o heading "Main" está presente no documento
-    expect(screen.getByRole('heading', { name: /main/i })).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', { name: /React Avançado/i }),
+    ).toBeInTheDocument()
   })
 })

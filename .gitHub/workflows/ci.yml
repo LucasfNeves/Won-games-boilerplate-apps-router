@@ -20,8 +20,14 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
+      - name: Verify Node.js Version
+        run: node -v
+
       - name: Install Dependencies
         run: npm install
+
+      - name: List Installed Packages
+        run: npm list
 
       - name: Linting
         run: npm run lint

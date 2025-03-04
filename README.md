@@ -15,6 +15,7 @@ Um boilerplate eficiente utilizando **Next.js App Router**, **React**, **Tailwin
 - **[Commitlint](https://commitlint.js.org/)** — Padronização de mensagens de commit.  
 - **[Prettier](https://prettier.io/)** — Formatação automática de código.  
 - **[ESLint](https://eslint.org/)** — Análise de código para garantir boas práticas.
+- **CI/CD** — Integração e entrega contínua com execução de linters e testes automatizados.
 
 ---
 
@@ -59,6 +60,9 @@ npm run test:watch
 ```bash
 npm run test:coverage
 ```
+
+## 🚀 Estrutura de CI/CD
+O projeto utiliza GitHub Actions para CI/CD, garantindo que os linters e testes sejam executados automaticamente em cada push e pull request.
 
 ## 📄 Convenção de Commits
 Este projeto utiliza Husky e Commitlint para garantir padrões de commit.
